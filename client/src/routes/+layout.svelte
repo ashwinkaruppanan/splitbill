@@ -8,6 +8,10 @@
 	$: path = $page.url.pathname;
 </script>
 
+<svelte:head>
+	<title>SplitBill | Split The Expense</title>
+</svelte:head>
+
 {#if path == '/'}
 	<Header />
 	<slot />

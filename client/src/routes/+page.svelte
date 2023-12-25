@@ -2,10 +2,6 @@
 	import banner from '../assets/banner.png';
 </script>
 
-<svelte:head>
-	<title>SplitBill | Split The Expense</title>
-</svelte:head>
-
 <main>
 	<div class="lg:grid lg:grid-cols-2 lg:mx-64 md:mx-20 mx-8 lg:mt-20 mt-10">
 		<div class=" my-auto text-center lg:text-left">
